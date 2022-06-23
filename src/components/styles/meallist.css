@@ -1,0 +1,38 @@
+.meal-list ul {
+  list-style-type: none;
+  text-align: left;
+  position: relative;
+  padding-right: 20px;
+  margin-block: 40px 20px;
+}
+
+.meal-list ul li {
+  margin-bottom: 10px;
+}
+
+.mealDelete {
+  color: red;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+}
+
+.meal-list {
+  color: rgb(66, 66, 66);
+}
+
+.mealFood {
+  color: #aa8b58;
+}
+
+.mealCalories {
+  color: rgb(56, 4, 4);
+}
+
+@media only screen and (max-width: 600px) {
+  .meal-list ul li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+  }
+}

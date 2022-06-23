@@ -1,0 +1,30 @@
+.mealModal {
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.mealModal form {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.mealModal form p {
+  color: var(--highlight-orange);
+  cursor: pointer;
+}
+
+.mealModal form button {
+  margin: 4px auto;
+  max-width: 200px;
+}
+
+.mealModal form span {
+  display: block;
+}
